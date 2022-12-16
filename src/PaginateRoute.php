@@ -1,6 +1,6 @@
 <?php
 
-namespace Vipertecpro\PaginateRoute;
+namespace Stepiko\PaginateRoute;
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Contracts\Routing\UrlGenerator;
@@ -380,7 +380,7 @@ class PaginateRoute
             $route = null;
 
             $router->group(
-                ['middleware' => 'Vipertecpro\PaginateRoute\SetPageMiddleware'],
+                ['middleware' => 'Stepiko\PaginateRoute\SetPageMiddleware'],
                 function () use ($pageKeyword, $router, $uri, $action, &$route) {
                     $route = $router->get($uri.'/{pageQuery?}', $action)->where('pageQuery', $pageKeyword.'/[0-9]+');
                 });

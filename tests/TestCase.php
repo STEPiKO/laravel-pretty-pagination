@@ -1,6 +1,6 @@
 <?php
 
-namespace Vipertecpro\PaginateRoute\Test;
+namespace Stepiko\PaginateRoute\Test;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Foundation\Application;

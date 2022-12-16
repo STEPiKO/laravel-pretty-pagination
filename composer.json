@@ -1,26 +1,25 @@
 {
-    "name": "vipertecpro/laravel-pretty-pagination",
+    "name": "stepiko/laravel-pretty-pagination",
     "description": "Laravel SEO friendly pagination routing.",
     "keywords": [
-        "vipertecpro",
+        "stepiko",
         "laravel-pretty-pagination",
         "SEO",
         "laravel",
         "pagination",
         "routing"
     ],
-    "homepage": "https://github.com/vipertecpro/laravel-pretty-pagination",
+    "homepage": "https://github.com/stepiko/laravel-pretty-pagination",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vipul Walia",
-            "email": "vipertecpro@gmail.com",
-            "homepage": "https://www.vipertecpro.com",
+            "name": "Pavel Stepanov",
+            "email": "stepiko79@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.1.3",
+        "php": "^8.0",
         "illuminate/contracts": "5.8.*|^6|^7|^8",
         "illuminate/routing": "5.8.*|^6|^7|^8",
         "illuminate/translation": "5.8.*|^6|^7|^8",
@@ -33,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vipertecpro\\PaginateRoute\\": "src"
+            "Stepiko\\PaginateRoute\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vipertecpro\\PaginateRoute\\Test\\": "tests"
+            "Stepiko\\PaginateRoute\\Test\\": "tests"
         }
     },
     "extra": {
@@ -47,10 +46,10 @@
         },
         "laravel": {
             "providers": [
-                "Vipertecpro\\PaginateRoute\\PaginateRouteServiceProvider"
+                "Stepiko\\PaginateRoute\\PaginateRouteServiceProvider"
             ],
             "aliases": {
-                "PaginateRoute": "Vipertecpro\\PaginateRoute\\PaginateRouteFacade"
+                "PaginateRoute": "Stepiko\\PaginateRoute\\PaginateRouteFacade"
             }
         }
     },

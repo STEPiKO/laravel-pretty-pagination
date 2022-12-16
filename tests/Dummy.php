@@ -1,6 +1,6 @@
 <?php
 
-namespace Vipertecpro\PaginateRoute\Test;
+namespace Stepiko\PaginateRoute\Test;
 
 use Illuminate\Database\Eloquent\Model;
 

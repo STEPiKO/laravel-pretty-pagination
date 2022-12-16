@@ -11,7 +11,7 @@ This package adds the `paginate` route method to support pagination via custom r
 ## Install
 Via Composer
 ``` bash
-composer require vipertecpro/laravel-pretty-pagination
+composer require stepiko/laravel-pretty-pagination
 ```
 
 First register the service provider and facade in your application.
@@ -21,12 +21,12 @@ First register the service provider and facade in your application.
 
 'providers' => [
     ...
-    'Vipertecpro\PaginateRoute\PaginateRouteServiceProvider',
+    'Stepiko\PaginateRoute\PaginateRouteServiceProvider',
 ];
 
 'aliases' => [
     ...
-    'PaginateRoute' => 'Vipertecpro\PaginateRoute\PaginateRouteFacade',
+    'PaginateRoute' => 'Stepiko\PaginateRoute\PaginateRouteFacade',
 ];
 ```
 
@@ -35,7 +35,7 @@ Then register the macros in `App\Providers\RouteServiceProvider::boot()`.
 ```php
 // app/Providers/RouteServiceProvider.php
 
-use Vipertecpro\PaginateRoute\PaginateRouteFacade as PaginateRoute;
+use Stepiko\PaginateRoute\PaginateRouteFacade as PaginateRoute;
 
 // ...
 
@@ -73,7 +73,7 @@ public function index()
 If you want to customize or add translations for the "page" url segment, you can publish the language files.
 
 ``` bash
-php artisan vendor:publish --provider="Vipertecpro\PaginateRoute\PaginateRouteServiceProvider"
+php artisan vendor:publish --provider="Stepiko\PaginateRoute\PaginateRouteServiceProvider"
 ```
 
 ### Generating Url's

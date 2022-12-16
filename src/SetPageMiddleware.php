@@ -1,6 +1,6 @@
 <?php
 
-namespace Vipertecpro\PaginateRoute;
+namespace Stepiko\PaginateRoute;
 
 use Request;
 use Route;

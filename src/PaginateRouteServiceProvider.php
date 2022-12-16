@@ -1,6 +1,6 @@
 <?php
 
-namespace Vipertecpro\PaginateRoute;
+namespace Stepiko\PaginateRoute;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -21,6 +21,6 @@ class PaginateRouteServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('paginateroute', 'Vipertecpro\PaginateRoute\PaginateRoute');
+        $this->app->singleton('paginateroute', 'Stepiko\PaginateRoute\PaginateRoute');
     }
 }
