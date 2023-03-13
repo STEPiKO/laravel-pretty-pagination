@@ -19,11 +19,11 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "illuminate/contracts": "5.8.*|^6|^7|^8",
-        "illuminate/routing": "5.8.*|^6|^7|^8",
-        "illuminate/translation": "5.8.*|^6|^7|^8",
-        "illuminate/pagination": "5.8.*|^6|^7|^8",
+        "php": "^8.0.2",
+        "illuminate/contracts": "5.8.*|^6|^7|^8|^9|^10",
+        "illuminate/routing": "5.8.*|^6|^7|^8|^9|^10",
+        "illuminate/translation": "5.8.*|^6|^7|^8|^9|^10",
+        "illuminate/pagination": "5.8.*|^6|^7|^8|^9|^10",
         "ext-json": "*"
     },
     "require-dev": {
